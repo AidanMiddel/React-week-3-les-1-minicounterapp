@@ -1,0 +1,67 @@
+.counter {
+    height: 60rem;
+    width: 40rem;
+    background: #E94560;
+    border-radius: 1rem;
+    box-shadow: 
+        inset -1rem -1rem 2rem 0 rgba(0,0,0,0.3),
+        0 1rem 2rem 0 rgba(0,0,0,0.3);
+}
+
+.counter__number {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter__value{
+    font-family: sans-serif;
+    font-size: 400%;
+    font-weight: 400;
+}
+
+.counter__buttons {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.counter__button {
+    padding: 2rem 4rem;
+    border: none;
+    font-size: 100%;
+    border-radius: 1rem;
+    box-shadow: 
+        inset -1rem -1rem 2rem 0 rgba(0,0,0,0.3),
+        0 1rem 2rem 0 rgba(0,0,0,0.3);
+}
+
+.counter__button--increase{
+    background: #367E18;
+}
+
+.counter__button--increase:hover{
+    background: hsl(102, 68%, 24%);
+    cursor: pointer;
+}
+
+.counter__button--increase:active{
+    background:hsl(102, 68%, 19%);
+}
+
+.counter__button--decrease{
+    background: #CC3636;
+}
+
+.counter__button--decrease:hover{
+    background: hsl(0, 60%, 46%);
+    cursor: pointer;
+}
+
+.counter__button--decrease:active{
+    background:hsl(0, 60%, 41%);
+}
+
